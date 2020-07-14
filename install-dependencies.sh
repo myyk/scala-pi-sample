@@ -21,3 +21,7 @@ sudo apt-get install sbt
 echo "Add this line on top of the file and save it:"
 echo "   SBT_OPTS=-Xmx256M"
 sudo nano /usr/bin/sbt
+
+# For Relay example configure the I2C bus
+echo "Follow these instructions to setup the I2C bus"
+echo "https://wiki.52pi.com/index.php/DockerPi_4_Channel_Relay_SKU:_EP-0099#Configuring_I2C.28Raspberry_Pi.29"
